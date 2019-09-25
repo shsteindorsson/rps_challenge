@@ -1,5 +1,12 @@
 # Rock-Paper-Scissors Challenge
 
+## Rules of the game
+There are 3 valid moves: Rock, Paper & Scissors
+ - Rock breaks Scissors
+ - Paper covers Rock
+ - Scissors cut Paper
+
+Should both players choose the same move, the game ends in a tie.
 
 ## User stories
 ```
