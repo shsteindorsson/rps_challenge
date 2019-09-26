@@ -16,4 +16,7 @@ describe('User can play RPS', () => {
     await browser.close();
   });
 
+  it('should see the rules of the game', async () => {
+    expect(content).to.eql('Rules:');
+  });
 });
