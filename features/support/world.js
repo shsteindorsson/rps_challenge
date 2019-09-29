@@ -1,8 +1,8 @@
 const { setWorldConstructor } = require('cucumber')
 const { expect } = require('chai')
 const puppeteer = require('puppeteer')
-
 const HOME_PAGE = 'http://localhost:3000'
+const RULES_PAGE = 'http://localhost:3000/src/rules.html'
 
 class RPSWorld {
   constructor() {}
@@ -23,6 +23,23 @@ class RPSWorld {
     const actualContent = pageContent.match(expectedContent)[0]
 
     expect(actualContent).to.be.eq(expectedContent)
+  }
+
+  async clickOnLink(linkName) {
+    const linkSelector = this.linkSelectorFromName(linkName.toLowerCase())
+    await this.page.waitForSelector(linkSelector)
+    await this.page.click(linkSelector)
+  }
+
+  linkSelectorFromName(linkName) {
+    switch (linkName) {
+      case 'rules of rock-paper-scissors':
+        return '#rules_link';
+        break;
+      default:
+        throw `${linkName} Link is not defined`;
+        break;
+    }
   }
 
 }

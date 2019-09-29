@@ -4,6 +4,9 @@ a:visited {
 body {
   margin: 0;
 }
+#cpu_img{
+  width: 30%;
+}
 footer{
   height: 60px;
   background-color: #555;
@@ -18,24 +21,29 @@ footer{
   position: fixed;
   width: 100%;
 }
-img{
-  width: 50%;
-}
 .left{
-  width: 30%;
+  width: 40%;
   display: inline-block;
-  background-color: #999
+  /*background-color: #999*/
 }
 main{
   margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 80%;
-    height: 100%;
-    border: none;
-    padding: 20px;
-    text-align: center;
-    position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 80%;
+  height: 100%;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+#main_rules_div img{
+  width: 50%;
+}
+.middle{
+  font-size: 300%;
+  font-weight: bold;
+  color: #555;
 }
 .navbar {
   height: 100px;
@@ -48,8 +56,16 @@ main{
   justify-content: center;
   align-items: center;
 }
-.right{
+.player_img{
   width: 30%;
+  margin: 5px;
+}
+.right{
+  width: 40%;
   display: inline-block;
-  background-color: aqua
+  /*background-color: aqua*/
+}
+.rules_link{
+  margin-left: 10px;
+  margin-right: 10px;
 }
