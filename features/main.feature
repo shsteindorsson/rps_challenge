@@ -5,5 +5,5 @@ Feature: Game's site exists
 
   Scenario: Visit the game's site
     Given I visit the site
-    Then I should see "Rules of Rock-Paper-Scissors"
+    Then I should see "Rock - Paper - Scissors"
     
