@@ -8,6 +8,9 @@ There are 3 valid moves: Rock, Paper & Scissors
 
 Should both players choose the same move, the game ends in a tie.
 
+## Acknowledgements
+The image on the _Rules_ page is obtained from [Wikimedia Commons](https://en.wikipedia.org/wiki/Rock–paper–scissors#/media/File:Rock-paper-scissors.svg) and is released under a _Creative Commons Attribution-Share Alike 3.0 Unported license_ (CC BY-SA-3.0).
+
 ## User stories
 ```
 As a player

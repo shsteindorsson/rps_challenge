@@ -53,3 +53,7 @@ main{
   display: inline-block;
   background-color: aqua
 }
+.rules_link{
+  margin-left: 10px;
+  margin-right: 10px;
+}
