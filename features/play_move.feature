@@ -6,5 +6,5 @@ Feature: Player makes a move
   Scenario: Choose a move
     Given I visit the site
     Then I should see "Rock - Paper - Scissors"
-    And I click "rock"
+    And I click "rock" image
     Then I should see "You played Rock!"
