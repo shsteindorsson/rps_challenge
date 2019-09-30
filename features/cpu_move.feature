@@ -1,7 +1,7 @@
 Feature: Player makes a move
   As a player
-  In order to play the game
-  I need to be able to pick an available move
+  In order to know the results
+  I need to see which move the computer picked
 
   Scenario: Choose a move
     Given I visit the site
