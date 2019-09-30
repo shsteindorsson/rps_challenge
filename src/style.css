@@ -21,7 +21,17 @@ footer{
   position: fixed;
   width: 100%;
 }
-.left{
+.game-bottom{
+  width: 40%;
+  display: inline-block;
+  /*background-color: aqua*/
+}
+.game-middle{
+  font-size: 300%;
+  font-weight: bold;
+  color: #555;
+}
+.game-top{
   width: 40%;
   display: inline-block;
   /*background-color: #999*/
@@ -40,11 +50,6 @@ main{
 #main_rules_div img{
   width: 50%;
 }
-.middle{
-  font-size: 300%;
-  font-weight: bold;
-  color: #555;
-}
 .navbar {
   height: 100px;
   background-color: #333;
@@ -60,10 +65,10 @@ main{
   width: 30%;
   margin: 5px;
 }
-.right{
-  width: 40%;
-  display: inline-block;
-  /*background-color: aqua*/
+#player-move{
+  font-size: 300%;
+  font-weight: bold;
+  color: #555;
 }
 .rules_link{
   margin-left: 10px;
