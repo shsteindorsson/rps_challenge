@@ -39,6 +39,12 @@ I need to be able to pick an available move
 
 ```
 As a player
+In order to know the results
+I need to see which move the computer picked
+```
+
+```
+As a player
 In order to know whether I have won
 I need to see the results of the game
 ```
