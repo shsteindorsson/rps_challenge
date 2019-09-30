@@ -6,3 +6,6 @@ Feature: Player makes a move
   Scenario: Choose a move
     Given I visit the site
     Then I should see "Rock - Paper - Scissors"
+    And I should see "rock"
+    And I should see "paper"
+    And I should see "scissors"
