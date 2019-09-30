@@ -6,7 +6,7 @@ Feature: Game's rules exist
   Scenario: Find link on main site
     Given I visit the site
     Then I should see "Rules of Rock-Paper-Scissors"
-    And I click "Rules of Rock-Paper-Scissors"
+    And I click "Rules of Rock-Paper-Scissors" link
     Then I should see "The rules of Rock - Paper - Scissors"
 
  

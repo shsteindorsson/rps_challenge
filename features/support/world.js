@@ -42,6 +42,29 @@ class RPSWorld {
     }
   }
 
+  async clickOnImage(imgName) {
+    const imgSelector = this.imgSelectorFromName(imgName.toLowerCase())
+    await this.page.waitForSelector(imgSelector)
+    await this.page.click(imgSelector)
+  }
+
+  imgSelectorFromName(imgName) {
+    switch (imgName) {
+      case 'rock':
+        return '#rock';
+        break;
+      case 'paper':
+        return '#paper';
+        break;
+      case 'scissors':
+        return '#scissors';
+        break;
+      default:
+        throw `${imgName} move is not defined`;
+        break;
+    }
+  }
+
 }
 
 setWorldConstructor(RPSWorld)
