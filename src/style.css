@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 a:visited {
   color: whitesmoke;
 }
 body {
   margin: 0;
+  font-family: 'Righteous', cursive;
 }
 #cpu_img{
   width: 30%;
 }
+#cpu-move{
+  font-size: 300%;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+  min-height: 55px;
+}
 footer{
   height: 60px;
-  background-color: #555;
+  background-color: #333;
   color: whitesmoke;
   font-size: 150%;
   margin-top: 15px;
@@ -29,11 +38,12 @@ footer{
 .game-middle{
   font-size: 300%;
   font-weight: bold;
-  color: #555;
+  color: #333;
 }
 .game-top{
   width: 40%;
   display: inline-block;
+  min-height: 315px;
   /*background-color: #999*/
 }
 main{
