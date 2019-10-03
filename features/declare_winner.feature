@@ -9,4 +9,4 @@ Feature: A winner is declared
     And I click "rock" image
     And I should see "You played Rock!"
     And I should see "Computer played"
-    Then I should see "winner"
+    Then I should see "victorious"
