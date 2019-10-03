@@ -63,3 +63,20 @@ I need to see the results of the game
 
 ## Screenshot
 ![Screenshot from RPS game](https://github.com/shsteindorsson/rps_challenge/blob/master/src/img/screenshot.png?raw=true)
+
+## License
+This is a version of the classic game of Rock-Papar-Scissors.
+Copyright (C) 2019  Sverrir Steindórsson.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
