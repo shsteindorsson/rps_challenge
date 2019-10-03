@@ -2,12 +2,10 @@ const { setWorldConstructor } = require('cucumber')
 const { expect } = require('chai')
 const puppeteer = require('puppeteer')
 const HOME_PAGE = 'http://localhost:3000'
-const RULES_PAGE = 'http://localhost:3000/src/rules.html'
 
 class RPSWorld {
   constructor() {}
 
-  // Open the home page using puppeteer
   async openHomePage() {
     this.browser = await puppeteer.launch({headless: false, slowmo: 100})
     this.page = await this.browser.newPage()
@@ -64,7 +62,6 @@ class RPSWorld {
         break;
     }
   }
-
 }
 
 setWorldConstructor(RPSWorld)

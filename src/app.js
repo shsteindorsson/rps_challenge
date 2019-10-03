@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
         break
       default:
         throw `${path} image is not defined`
-        break
     }
   }
   
@@ -54,16 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
     switch (randomNumber) {
       case 0:
         return 'Rock'
-        break
       case 1:
         return 'Paper'
-        break
       case 2:
         return 'Scissors'
-        break
       default:
         throw `${randomNumber} as a computer move is not defined`
-        break
     }
   }
 
@@ -76,37 +71,28 @@ document.addEventListener('DOMContentLoaded', () => {
         switch (cpu) {
           case 'Paper':
             return 'The computer is victorius'
-            break
           case 'Scissors':
             return 'You are victorious'
-            break
           default:
             throw 'CPU not defined'
-            break
         }
       case 'Paper':
         switch (cpu) {
           case 'Rock':
             return 'You are victorious'
-            break
           case 'Scissors':
             return 'The computer is victorius'
-            break
           default:
             throw 'CPU not defined'
-            break
         }
       case 'Scissors':
         switch (cpu) {
           case 'Rock':
             return 'The computer is victorius'
-            break
             case 'Paper':
               return 'You are victorious'
-              break
             default:
               throw 'CPU not defined'
-              break
         }
     }
   }
